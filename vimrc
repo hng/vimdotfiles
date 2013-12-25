@@ -1,5 +1,8 @@
 call pathogen#infect() 
-
+call togglebg#map("<F5>")
 syntax on
 set number
-colorscheme zenburn
+set hidden
+set background=dark
+colorscheme solarized
+ 
