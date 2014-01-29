@@ -7,9 +7,11 @@ set number
 set nocompatible
 set hidden
 set background=dark
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set hlsearch
 colorscheme solarized
-
 set encoding=utf-8
 
 " airline config
