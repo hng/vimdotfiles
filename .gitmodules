@@ -31,3 +31,6 @@
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = https://github.com/tpope/vim-rake
+[submodule "bundle/riv-vim"]
+	path = bundle/riv-vim
+	url = https://github.com/Rykka/riv.vim
