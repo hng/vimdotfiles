@@ -1,3 +1,6 @@
+let mapleader = ','
+let maplocalleader = ','
+
 " pathogen
 call pathogen#infect() 
 call togglebg#map("<F5>")
@@ -13,6 +16,7 @@ set expandtab
 set hlsearch
 colorscheme solarized
 set encoding=utf-8
+
 
 " airline config
 set laststatus=2
@@ -30,6 +34,3 @@ let g:airline_right_alt_sep = '⮃'
 let g:airline_symbols.branch = '⭠'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
-
-" mappings
-map <C-n> :NERDTreeToggle<CR>

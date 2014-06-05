@@ -34,3 +34,9 @@
 [submodule "bundle/riv-vim"]
 	path = bundle/riv-vim
 	url = https://github.com/Rykka/riv.vim
+[submodule "LaTeX-Box"]
+	path = LaTeX-Box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "bundle/latex-box"]
+	path = bundle/latex-box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
