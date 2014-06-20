@@ -3,6 +3,7 @@ let maplocalleader = ','
 
 " pathogen
 call pathogen#infect() 
+Helptags
 call togglebg#map("<F5>")
 
 syntax on
@@ -34,3 +35,6 @@ let g:airline_right_alt_sep = '⮃'
 let g:airline_symbols.branch = '⭠'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
+
+" latex-box
+let g:LatexBox_viewer = 'open -a Skim'
