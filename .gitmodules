@@ -34,3 +34,9 @@
 [submodule "bundle/latex-box"]
 	path = bundle/latex-box
 	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "bundle/vim-pandoc-syntax"]
+	path = bundle/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
