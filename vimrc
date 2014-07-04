@@ -38,3 +38,10 @@ let g:airline_symbols.linenr = '⭡'
 
 " latex-box
 let g:LatexBox_viewer = 'open -a Skim'
+
+" Easy Align
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
