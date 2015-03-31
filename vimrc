@@ -45,3 +45,7 @@ vmap <Enter> <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
 nmap <Leader>a <Plug>(EasyAlign)
+
+" Mappings for fugitive
+nmap S :Gstatus<CR>
+nmap C :Gcommit<CR>
